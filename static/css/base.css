@@ -17,7 +17,7 @@
 }
 
 @font-face {
-    font-family: suca;
+    font-family: comforta;
     src: url("./Comfortaa-Light.ttf");
 }
 
@@ -32,8 +32,8 @@ html, body{
 }
 
 .top_text, .bottom_text{
-    font-family: 'suca';
-    font-size: 4rem;
+    font-family: 'comforta';
+    font-size: 5rem;
     background-color: #111;
     text-align: center;
     padding-top: var(--padding_top_text);
@@ -45,26 +45,17 @@ html, body{
 }
 
 .img_container{
-    margin: 10px;
-    font-family: 'suca';
-    font-size: 5vh;
-}
-
-.img_container{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    margin-top: 1vh;
+    font-family: 'comforta';
 }
 
 #image{
-    max-width: calc(100% - 10px);
-    margin: 5px;
+    width: 100%;
 }
 
 p{
-    font-size: 1.5rem;
-    word-wrap: normal;
+    font-size: 3rem;
+    text-align: center;
 }
